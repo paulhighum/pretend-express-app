@@ -4,7 +4,9 @@
   "description": "Practicing Express Apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./script/index.js",
+    "dev": "nodemon ./script/index.js"
   },
   "repository": {
     "type": "git",

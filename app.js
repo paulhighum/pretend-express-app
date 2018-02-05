@@ -10,16 +10,16 @@ app.get("/migration", (req, res) => {
   queries
     .list("migration")
     .then(person => {
-      response.json({ person })
+      res.json({ person })
     })
     .catch(console.error)
 })
 
-app.post("/migration", (request, response) => {
+app.post("/migration", (req, res) => {
   queries
-    .create("migration", request.body)
+    .create("migration", req.body)
     .then(person => {
-      response.status(201).json({ person: person })
+      res.status(201).json({ person: person })
     })
     .catch(console.error)
 })
