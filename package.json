@@ -1,0 +1,28 @@
+{
+  "name": "pretend-express-app",
+  "version": "1.0.0",
+  "description": "Practicing Express Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulhighum/pretend-express-app.git"
+  },
+  "author": "Paul Highum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulhighum/pretend-express-app/issues"
+  },
+  "homepage": "https://github.com/paulhighum/pretend-express-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "nodemon": "^1.14.12",
+    "pg": "^7.4.1"
+  }
+}
